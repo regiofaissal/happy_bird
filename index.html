@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Bird</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="happy-face.png" type="image/x-icon">
+</head>
+<body>
+    <div class="game-container">
+        <h1 style="color: white; margin-bottom: 20px; text-shadow: 2px 2px 4px rgba(0,0,0,0.5)">
+            <img width="40px" src="dancer.png" alt="dance">
+            Happy Bird
+        </h1>
+        <div class="score-display">
+            <div>Point: <span id="score">0</span></div>
+            <div>Record: <span id="highScore">0</span></div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
